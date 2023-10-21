@@ -49,7 +49,7 @@ class Form{
                   //set the intial value for carsAtEnd,playerCount,gameState,players
                     playerCount:0,
                     gameState:0,
-                    playersAtEnd:0,
+                    playerAtEnd:0,
                     players: {}
                   
                 });
@@ -62,4 +62,3 @@ class Form{
 
           }
           
-}

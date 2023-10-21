@@ -146,10 +146,9 @@ class Game{
 
         gameOver() {
         swal({
-         //     fill the white color
-            fill:`white`,
-        //  print the gameover message
-            message:`GAME OVER`,
+            title:`GAME OVER`,
+            text:"YOU LOST",
+            confirmButtonText:"CLOSE"
             
         })  
         }
